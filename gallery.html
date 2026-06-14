@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — ABC Public School, Varanasi</title>
+  <meta name="description" content="Photo gallery of ABC Public School — Annual Day, Sports Day, Science Fair, Classroom activities, Events, and more." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">🏫</div>
+        <div class="logo-text">ABC Public School<span>CBSE Affiliated · Varanasi</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a><a href="facilities.html">Facilities</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="notices.html">Notices</a><a href="disclosure.html">Disclosure</a><a href="contact.html">Contact</a>
+      </div>
+      <a href="enquiry.html" class="btn btn-accent btn-sm nav-enquire">Enquire Now →</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="academics.html">Academics</a>
+    <a href="admission.html">Admission</a><a href="facilities.html">Facilities</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="notices.html">Notices</a><a href="disclosure.html">Disclosure</a><a href="contact.html">Contact</a>
+    <a href="enquiry.html" class="mobile-enquire">Enquire Now →</a>
+  </div>
+
+  <!-- PAGE BANNER -->
+  <div class="page-banner">
+    <h1>Photo Gallery</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Gallery</span></div>
+  </div>
+
+  <!-- GALLERY -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:2rem;">
+        <h2 class="section-title">Life at ABC Public School</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Explore glimpses of our vibrant school community and activities</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="annual">Annual Day</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+        <button class="filter-btn" data-filter="classroom">Classroom</button>
+        <button class="filter-btn" data-filter="labs">Labs</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-full-grid">
+
+        <div class="gallery-item" data-category="annual">
+          <div class="gal-inner gp-1" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🎭</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Annual Day 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="sports">
+          <div class="gal-inner gp-2" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">⚽</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Sports Day 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="labs">
+          <div class="gal-inner gp-3" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🔬</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Science Fair 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="annual">
+          <div class="gal-inner gp-4" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🎨</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Art Exhibition</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="events">
+          <div class="gal-inner gp-5" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🏆</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Prize Distribution</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="classroom">
+          <div class="gal-inner gp-6" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">📺</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Smart Classes</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="sports">
+          <div class="gal-inner gp-7" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🏏</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Cricket Tournament</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="events">
+          <div class="gal-inner gp-8" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🎤</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Independence Day</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="labs">
+          <div class="gal-inner gp-9" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">⚗️</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Chemistry Lab</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="classroom">
+          <div class="gal-inner gp-10" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">📖</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Library Session</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="annual">
+          <div class="gal-inner gp-11" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🎵</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Cultural Program</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="events">
+          <div class="gal-inner gp-12" style="width:100%;height:100%;flex-direction:column;gap:8px;">
+            <span style="font-size:2rem;">🌿</span>
+            <span style="font-size:0.85rem;font-weight:600;color:rgba(255,255,255,0.9);">Tree Plantation Drive</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO SECTION -->
+  <section class="section-pad bg-light">
+    <div class="container text-center">
+      <h2 class="section-title">Experience ABC Public School</h2>
+      <div class="section-line"></div>
+      <p class="section-subtitle" style="margin-bottom:2rem;">Watch our school tour and annual day highlights</p>
+      <div style="background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:var(--radius);padding:60px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;max-width:700px;margin:0 auto;box-shadow:var(--shadow-md);">
+        <div style="width:80px;height:80px;background:rgba(245,166,35,0.2);border:3px solid var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2.5rem;cursor:pointer;">▶</div>
+        <p style="color:var(--white);font-weight:600;font-size:1.1rem;">School Tour Video</p>
+        <p style="color:rgba(255,255,255,0.75);font-size:0.9rem;">Click to watch our campus and annual day highlights</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">🏫 ABC Public School</div>
+          <p>Shaping tomorrow's leaders since 1995. CBSE affiliated, committed to excellence.</p>
+          <div class="footer-socials"><a href="#" class="social-btn">f</a><a href="#" class="social-btn">𝕏</a><a href="#" class="social-btn">📷</a><a href="#" class="social-btn">▶</a></div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="academics.html">Academics</a></li><li><a href="admission.html">Admission</a></li><li><a href="disclosure.html"><strong style="color:var(--accent);">Public Disclosure</strong></a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="contact-item"><span class="ci-icon">📍</span><span>123 Civil Lines, Varanasi, UP 221001</span></div>
+          <div class="contact-item"><span class="ci-icon">📞</span><span>+91 98765 43210</span></div>
+          <div class="contact-item"><span class="ci-icon">✉️</span><span>info@abcpublicschool.edu.in</span></div>
+        </div>
+        <div class="footer-col">
+          <h4>Affiliation</h4>
+          <ul><li><a href="#">CBSE No: 2130456</a></li><li><a href="#">School Code: 67842</a></li><li><a href="disclosure.html">Mandatory Disclosure</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© 2025 ABC Public School, Varanasi.</span><span>CBSE Affiliation No: 2130456</span></div>
+    </div>
+  </footer>
+  <a href="https://wa.me/919876543210?text=Hello%2C+I+need+admission+information" class="whatsapp-float" target="_blank" rel="noopener">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.49"/></svg>
+  </a>
+  <script src="main.js"></script>
+</body>
+</html>

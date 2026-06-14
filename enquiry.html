@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admission Enquiry 2025–26 — ABC Public School, Varanasi</title>
+  <meta name="description" content="Apply for admission at ABC Public School, Varanasi for 2025–26. Fill our online enquiry form for Classes Nursery to XII. Our team will contact you within 24 hours." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">🏫</div>
+        <div class="logo-text">ABC Public School<span>CBSE Affiliated · Varanasi</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a><a href="facilities.html">Facilities</a><a href="gallery.html">Gallery</a>
+        <a href="notices.html">Notices</a><a href="disclosure.html">Disclosure</a><a href="contact.html">Contact</a>
+      </div>
+      <a href="enquiry.html" class="btn btn-accent btn-sm nav-enquire active-enquire" style="background:var(--primary);border-color:var(--primary);">Enquire Now →</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="academics.html">Academics</a>
+    <a href="admission.html">Admission</a><a href="facilities.html">Facilities</a><a href="gallery.html">Gallery</a>
+    <a href="notices.html">Notices</a><a href="disclosure.html">Disclosure</a><a href="contact.html">Contact</a>
+    <a href="enquiry.html" class="mobile-enquire">Enquire Now →</a>
+  </div>
+
+  <!-- PAGE BANNER -->
+  <div class="page-banner">
+    <h1>Admission Enquiry 2025–26</h1>
+    <div class="breadcrumb">
+      <a href="index.html">Home</a><span>›</span><a href="admission.html">Admission</a><span>›</span><span>Enquiry Form</span>
+    </div>
+  </div>
+
+  <!-- ADMISSION BANNER STRIP -->
+  <div style="background:var(--accent);padding:14px;text-align:center;">
+    <p style="color:var(--white);font-weight:600;">🎉 Admissions Open for 2025–26 — Limited Seats! Our team will call within 24 hours of form submission.</p>
+  </div>
+
+  <!-- ENQUIRY FORM -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="enquiry-layout">
+
+        <!-- MAIN FORM -->
+        <div>
+          <div class="enquiry-form" id="enquiryFormWrapper">
+            <h2>📋 Student Admission Enquiry Form</h2>
+            <p style="color:var(--text-light);margin-bottom:2rem;font-size:0.95rem;">Fields marked with <span class="form-required">*</span> are mandatory.</p>
+
+            <form id="enquiryForm" action="https://formspree.io/f/demo" method="POST">
+
+              <!-- Student Info -->
+              <h4 style="color:var(--primary);border-bottom:2px solid var(--border);padding-bottom:8px;margin-bottom:1.5rem;">👤 Student Information</h4>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="studentName">Student's Full Name <span class="form-required">*</span></label>
+                  <input type="text" id="studentName" name="studentName" placeholder="Enter student's full name" required />
+                </div>
+                <div class="form-group">
+                  <label for="dob">Date of Birth <span class="form-required">*</span></label>
+                  <input type="date" id="dob" name="dob" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Gender <span class="form-required">*</span></label>
+                <div class="radio-group" style="margin-top:8px;">
+                  <label><input type="radio" name="gender" value="Male" required /> Male</label>
+                  <label><input type="radio" name="gender" value="Female" /> Female</label>
+                  <label><input type="radio" name="gender" value="Other" /> Other</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="classApplying">Class Applying For <span class="form-required">*</span></label>
+                <select id="classApplying" name="classApplying" required>
+                  <option value="">-- Select Class --</option>
+                  <option>Nursery</option>
+                  <option>LKG</option>
+                  <option>UKG</option>
+                  <option>Class I</option>
+                  <option>Class II</option>
+                  <option>Class III</option>
+                  <option>Class IV</option>
+                  <option>Class V</option>
+                  <option>Class VI</option>
+                  <option>Class VII</option>
+                  <option>Class VIII</option>
+                  <option>Class IX</option>
+                  <option>Class X</option>
+                  <option>Class XI — Science</option>
+                  <option>Class XI — Commerce</option>
+                  <option>Class XII — Science</option>
+                  <option>Class XII — Commerce</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="currentSchool">Current School (if any)</label>
+                <input type="text" id="currentSchool" name="currentSchool" placeholder="Name of current school (if applicable)" />
+              </div>
+
+              <!-- Parent Info -->
+              <h4 style="color:var(--primary);border-bottom:2px solid var(--border);padding-bottom:8px;margin-bottom:1.5rem;margin-top:2rem;">👨‍👩‍👦 Parent / Guardian Information</h4>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="fatherName">Father's Name <span class="form-required">*</span></label>
+                  <input type="text" id="fatherName" name="fatherName" placeholder="Father's full name" required />
+                </div>
+                <div class="form-group">
+                  <label for="motherName">Mother's Name</label>
+                  <input type="text" id="motherName" name="motherName" placeholder="Mother's full name" />
+                </div>
+                <div class="form-group">
+                  <label for="primaryPhone">Primary Contact Number <span class="form-required">*</span></label>
+                  <input type="tel" id="primaryPhone" name="primaryPhone" placeholder="+91 XXXXX XXXXX" required />
+                </div>
+                <div class="form-group">
+                  <label for="altPhone">Alternate Contact Number</label>
+                  <input type="tel" id="altPhone" name="altPhone" placeholder="+91 XXXXX XXXXX" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="emailAddress">Email Address</label>
+                <input type="email" id="emailAddress" name="emailAddress" placeholder="your@email.com" />
+              </div>
+
+              <div class="form-group">
+                <label for="address">Residential Address <span class="form-required">*</span></label>
+                <textarea id="address" name="address" placeholder="Enter complete residential address..." required style="min-height:90px;"></textarea>
+              </div>
+
+              <!-- Additional Info -->
+              <h4 style="color:var(--primary);border-bottom:2px solid var(--border);padding-bottom:8px;margin-bottom:1.5rem;margin-top:2rem;">📝 Additional Information</h4>
+              <div class="form-group">
+                <label for="howHeard">How did you hear about us?</label>
+                <select id="howHeard" name="howHeard">
+                  <option value="">-- Select an option --</option>
+                  <option>Google Search</option>
+                  <option>Friend / Family Referral</option>
+                  <option>School Banner / Hoarding</option>
+                  <option>Social Media (Facebook/Instagram)</option>
+                  <option>Newspaper Advertisement</option>
+                  <option>WhatsApp / SMS</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message / Special Requirements</label>
+                <textarea id="message" name="message" placeholder="Any specific questions, special requirements, or information you'd like to share..." style="min-height:100px;"></textarea>
+              </div>
+
+              <!-- Privacy Note -->
+              <div style="background:var(--bg-light);border-radius:6px;padding:12px 16px;margin-bottom:1.5rem;font-size:0.85rem;color:var(--text-light);">
+                🔒 Your information is safe with us and will only be used for admission-related communication. We respect your privacy.
+              </div>
+
+              <button type="submit" class="btn btn-accent" id="submitBtn" style="width:100%;font-size:1rem;padding:16px;">
+                Submit Enquiry →
+              </button>
+            </form>
+
+            <!-- SUCCESS MESSAGE -->
+            <div class="success-message" id="successMessage">
+              <div style="font-size:3rem;margin-bottom:0.75rem;">✅</div>
+              <h4>Enquiry Submitted Successfully!</h4>
+              <p style="color:var(--text-light);margin-top:0.5rem;">Thank you for your interest in ABC Public School. Our admissions team will contact you at the provided number within <strong>24 working hours</strong>.</p>
+              <p style="margin-top:1rem;font-size:0.9rem;color:var(--text-light);">For immediate assistance, call us at <a href="tel:+919876543210" style="color:var(--primary);font-weight:700;">+91 98765 43210</a></p>
+              <a href="index.html" class="btn btn-primary" style="margin-top:1.5rem;">← Back to Home</a>
+            </div>
+          </div>
+
+          <p style="text-align:center;color:var(--text-light);font-size:0.9rem;margin-top:1.5rem;">📞 Our admissions team will contact you within 24 working hours</p>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="enquiry-sidebar">
+
+          <!-- Contact Info Card -->
+          <div class="sidebar-card">
+            <h4>📞 Admissions Office</h4>
+            <div class="sidebar-info">
+              <span class="si-icon">📱</span>
+              <p><strong>+91 98765 43210</strong><br>Mon–Sat, 8AM–3PM</p>
+            </div>
+            <div class="sidebar-info">
+              <span class="si-icon">📱</span>
+              <p><strong>+91 98765 43211</strong><br>Admission Cell Direct</p>
+            </div>
+            <div class="sidebar-info">
+              <span class="si-icon">✉️</span>
+              <p>admissions@<br>abcpublicschool.edu.in</p>
+            </div>
+            <div class="sidebar-info">
+              <span class="si-icon">📍</span>
+              <p>123 Civil Lines,<br>Varanasi, UP 221001</p>
+            </div>
+          </div>
+
+          <!-- Quick Info -->
+          <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);">
+            <h4 style="color:var(--primary);font-weight:700;margin-bottom:1rem;">📅 Key Dates</h4>
+            <div style="display:flex;flex-direction:column;gap:12px;">
+              <div style="display:flex;justify-content:space-between;font-size:0.85rem;padding-bottom:8px;border-bottom:1px solid var(--border);">
+                <span style="color:var(--text-light);">Enquiry Form Open</span>
+                <span style="font-weight:600;color:var(--success);">Now Open</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:0.85rem;padding-bottom:8px;border-bottom:1px solid var(--border);">
+                <span style="color:var(--text-light);">School Visits</span>
+                <span style="font-weight:600;">Mon–Sat</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:0.85rem;padding-bottom:8px;border-bottom:1px solid var(--border);">
+                <span style="color:var(--text-light);">Session Starts</span>
+                <span style="font-weight:600;">April 2026</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:0.85rem;">
+                <span style="color:var(--text-light);">Last Date</span>
+                <span style="font-weight:600;color:#ef4444;">31 March 2026</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- WhatsApp CTA -->
+          <a href="https://wa.me/919876543210?text=Hello%2C+I+am+interested+in+admission+for+2025-26" target="_blank" rel="noopener"
+            style="display:flex;align-items:center;gap:12px;background:#25D366;color:var(--white);border-radius:var(--radius);padding:16px 20px;margin-top:16px;font-weight:600;transition:var(--transition);"
+            onmouseover="this.style.background='#1ebe5d'" onmouseout="this.style.background='#25D366'">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.49"/></svg>
+            <div>
+              <div>Chat on WhatsApp</div>
+              <div style="font-size:0.8rem;opacity:0.9;font-weight:400;">Quick admission query</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">🏫 ABC Public School</div>
+          <p>Shaping tomorrow's leaders since 1995. CBSE affiliated, committed to excellence.</p>
+          <div class="footer-socials"><a href="#" class="social-btn">f</a><a href="#" class="social-btn">𝕏</a><a href="#" class="social-btn">📷</a><a href="#" class="social-btn">▶</a></div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="academics.html">Academics</a></li><li><a href="admission.html">Admission</a></li><li><a href="disclosure.html"><strong style="color:var(--accent);">Public Disclosure</strong></a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="contact-item"><span class="ci-icon">📍</span><span>123 Civil Lines, Varanasi, UP 221001</span></div>
+          <div class="contact-item"><span class="ci-icon">📞</span><span>+91 98765 43210</span></div>
+          <div class="contact-item"><span class="ci-icon">✉️</span><span>info@abcpublicschool.edu.in</span></div>
+        </div>
+        <div class="footer-col">
+          <h4>Affiliation</h4>
+          <ul><li><a href="#">CBSE No: 2130456</a></li><li><a href="#">School Code: 67842</a></li><li><a href="disclosure.html">Mandatory Disclosure</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© 2025 ABC Public School, Varanasi.</span><span>CBSE Affiliation No: 2130456</span></div>
+    </div>
+  </footer>
+  <a href="https://wa.me/919876543210?text=Hello%2C+I+need+admission+information" class="whatsapp-float" target="_blank" rel="noopener">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.49"/></svg>
+  </a>
+  <script src="main.js"></script>
+</body>
+</html>
